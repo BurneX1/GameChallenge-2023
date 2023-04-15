@@ -28,7 +28,7 @@ public class AmbientProgression : MonoBehaviour
     {
         SetEnv();
 
-        //SetGrowth();
+        SetGrowth();
     }
 
     public float GetEnviromentValue()
@@ -54,7 +54,8 @@ public class AmbientProgression : MonoBehaviour
     }
 
     void SetEnv()
-    {  
+    {
+        if (envParts.Length == 0) return;
         float baseVal = 1.0f / (envParts.Length- 1) * maxEnviroment;
         float actVal = actEnv;
         Debug.Log(" " + baseVal + " " + actVal + " " + (int)(maxEnviroment / baseVal) + " ");
@@ -105,9 +106,10 @@ public class AmbientProgression : MonoBehaviour
 
     void SetGrowth()
     {
-        float baseVal = 1 / treeParts.Length * maxTreeGrowth;
-        float actVal = actTrGrw / treeParts.Length;
-
+        if (treeParts.Length == 0) return;
+        float baseVal = 1.0f / (treeParts.Length-1) * maxTreeGrowth;
+        float actVal = actTrGrw;
+        Debug.Log(" " + baseVal + " " + actVal + " " + (int)(maxTreeGrowth / baseVal) + " ");
         for (int i = 0; i < (int)(maxTreeGrowth / baseVal); i++)
         {
             if (actVal >= maxTreeGrowth)
@@ -116,7 +118,7 @@ public class AmbientProgression : MonoBehaviour
                 ActivePart(treeParts.Length - 1, treeParts);
 
             }
-            else if (i * baseVal < actVal && actVal < (i + 1) * baseVal)
+            else if (i * baseVal <= actVal && actVal < (i + 1) * baseVal)
             {
                 ActivePart(i, treeParts);
             }
