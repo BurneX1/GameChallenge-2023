@@ -100,4 +100,9 @@ public class AudioButtons : MonoBehaviour
  
 
     }
+
+    public void CallSound(string nameSong)
+    {
+        AudioManager.Instance.Play(nameSong, AudioManager.Instance.sounds);
+    }
 }
