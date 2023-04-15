@@ -122,7 +122,13 @@ public class MenuInterfaceController : MonoBehaviour
     IEnumerator DesactiveOnTime(GameObject obj, float time)
     {
         yield return new WaitForSeconds(time);
-        obj.SetActive(false);
+   
+
+
+        obj.GetComponent<Animator>().Play("End");
+        yield return new WaitForSeconds(1);
+        obj.gameObject.SetActive(false);
+ 
     }
 
 }
