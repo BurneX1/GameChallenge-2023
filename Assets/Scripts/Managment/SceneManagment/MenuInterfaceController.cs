@@ -16,11 +16,6 @@ public class MenuInterfaceController : MonoBehaviour
     public int currentScreenIndex = 1;
     public RectTransform[] screens;
 
-    [Header("Pops")]
-    public bool isInPop;
-    public GameObject[] pops;
-    public GameObject popUpPanel;
-
     private void Start()
     {
 
@@ -34,7 +29,6 @@ public class MenuInterfaceController : MonoBehaviour
     
     private void Update()
     {
-        isInPop = popUpPanel.activeSelf;
         if(SceneManager.GetActiveScene().buildIndex == 1)
         {
             if (Input.GetKeyDown(KeyCode.Escape) && isInPop == true)
@@ -54,6 +48,11 @@ public class MenuInterfaceController : MonoBehaviour
     }
 
     public void ChangeScreen(int targetScreen) => MoveScreens(targetScreen);
+
+    public void ChangeSceen(string name)
+    {
+        SceneManager.LoadScene(name);
+    }
 
     private void MoveScreens(int targetScreen)
     {
@@ -109,7 +108,7 @@ public class MenuInterfaceController : MonoBehaviour
 
     public void TweenPopUp(Transform popUp)
     {
-        popUpPanel.SetActive(true);
+
         popUp.localScale = Vector3.zero;
         popUp.gameObject.SetActive(true);
         popUp.DOScale(1, duration);
@@ -121,7 +120,7 @@ public class MenuInterfaceController : MonoBehaviour
     {
         popUp.DOScale(0, duration);
         yield return new WaitUntil(() => popUp.localScale == Vector3.zero);
-        popUpPanel.SetActive(false);
+
         popUp.gameObject.SetActive(false);
     }
 
@@ -134,10 +133,4 @@ public class MenuInterfaceController : MonoBehaviour
         obj.SetActive(false);
     }
 
-}
-public enum CurrentScreen
-{
-    mainMenu,
-    characterMenu,
-    achievementMenu
 }
