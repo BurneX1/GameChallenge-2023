@@ -31,18 +31,10 @@ public class MenuInterfaceController : MonoBehaviour
     {
         if(SceneManager.GetActiveScene().buildIndex == 1)
         {
-            if (Input.GetKeyDown(KeyCode.Escape) && isInPop == true)
-            {
-                for (int i = 0; i < pops.Length; i++)
-                {
-                    if (pops[i].gameObject.activeSelf == true)
-                        HidePopUp(pops[i].transform);
-                }
-            }
-            else if (Input.GetKeyDown(KeyCode.Escape) && isInPop == false)
+           if (Input.GetKeyDown(KeyCode.Escape))
             {
                 if (currentScreenIndex != 0) ChangeScreen(0);
-                else TweenPopUp(pops[0].transform);
+
             }
         }
     }
