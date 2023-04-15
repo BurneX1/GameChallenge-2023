@@ -26,5 +26,27 @@ MonoBehaviour:
     m_Localized: "Cr\xE9ditos"
     m_Metadata:
       m_Items: []
+  - m_Id: 285457758871552
+    m_Localized: "En un mundo al borde del colapso ambiental, nace un peque\xF1o
+      brote de \xE1rbol"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285687699005440
+    m_Localized: "Tu misi\xF3n es alimentar al brote con los componentes adecuados"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285845606162432
+    m_Localized: Y ayudar a procesar esos componentes correctamente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286112368091136
+    m_Localized: Todo para ayudarlo a crecer y evitando que consuma compuestos nocivos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286251845476352
+    m_Localized: "Y as\xED conseguir que el ambiente y la atm\xF3sfera est\xE9n libres
+      de contaminaci\xF3n"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

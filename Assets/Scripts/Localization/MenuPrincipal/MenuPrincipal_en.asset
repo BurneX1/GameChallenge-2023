@@ -26,5 +26,27 @@ MonoBehaviour:
     m_Localized: Credits
     m_Metadata:
       m_Items: []
+  - m_Id: 285457758871552
+    m_Localized: In a world on the brink of environmental collapse, a small tree
+      sprout is born.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285687699005440
+    m_Localized: Your mission is to feed the sprout with the right components.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285845606162432
+    m_Localized: And help process those components correctly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286112368091136
+    m_Localized: Everything to help it grow and prevent it from consuming harmful
+      compounds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286251845476352
+    m_Localized: And thus make the environment and the atmosphere free of pollution
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

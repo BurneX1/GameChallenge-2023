@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Creditos_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 54549f86183b8634a8e8e6a4ede7d973, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9547341824
+    m_Localized: "Cr\xE9ditos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62760476672
+    m_Localized: "Dise\xF1o de Mec\xE1nicas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152787017728
+    m_Localized: "Programaci\xF3n de videojuegos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 244856184832
+    m_Localized: "Dise\xF1o de UI"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353878728704
+    m_Localized: "Elaboraci\xF3n de Assets"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
