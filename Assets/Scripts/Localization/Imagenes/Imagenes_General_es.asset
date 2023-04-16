@@ -26,5 +26,9 @@ MonoBehaviour:
     m_Localized: "d211fcf0e567a7c43a9eca8957b5972c[Espa\xF1ol on]"
     m_Metadata:
       m_Items: []
+  - m_Id: 362184505876480
+    m_Localized: 0212d2ef78a56564fa9ab32e8b0585c3[tranparente]
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

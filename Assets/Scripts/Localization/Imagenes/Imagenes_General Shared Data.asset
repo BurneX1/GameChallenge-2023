@@ -23,6 +23,14 @@ MonoBehaviour:
     m_Key: Idioma_Set
     m_Metadata:
       m_Items: []
+  - m_Id: 361807123374080
+    m_Key: ganasteLogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362184505876480
+    m_Key: Victoria_Win
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - id: 0
@@ -39,6 +47,9 @@ MonoBehaviour:
           m_TableCodes:
           - es
           - en
+        - m_KeyId: 361807123374080
+          m_TableCodes:
+          - en
         m_TypeString: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
     00000001:
@@ -49,6 +60,10 @@ MonoBehaviour:
           m_TableCodes:
           - es
           - en
+        - m_KeyId: 362184505876480
+          m_TableCodes:
+          - en
+          - es
         m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
     00000002:

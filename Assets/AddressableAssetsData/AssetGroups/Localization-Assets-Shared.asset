@@ -43,6 +43,11 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52dc0c146f4238c439d0bfe62e736d43
+    m_Address: Assets/Scripts/Localization/Victoria/Victoria Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 9966ce6b0e5613c49992b9686e561f0b, type: 2}
   m_SchemaSet:

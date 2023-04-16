@@ -52,5 +52,9 @@ MonoBehaviour:
     m_Localized: Omitir
     m_Metadata:
       m_Items: []
+  - m_Id: 650742017875968
+    m_Localized: Historia
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
