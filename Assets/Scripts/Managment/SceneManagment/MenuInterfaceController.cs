@@ -94,7 +94,7 @@ public class MenuInterfaceController : MonoBehaviour
             }
 
 
-            if (currentScreen != 0) StartCoroutine(DesactiveOnTime(screens[currentScreen].gameObject, duration));
+            if (currentScreen >= 0) StartCoroutine(DesactiveOnTime(screens[currentScreen].gameObject, duration));
         }
     }
 
