@@ -96,6 +96,11 @@ public class MenuInterfaceController : MonoBehaviour
 
             if (currentScreen >= 0) StartCoroutine(DesactiveOnTime(screens[currentScreen].gameObject, duration));
         }
+
+        if(targetScreen == 6)
+        {
+            StartCoroutine(MoveScreen6());
+        }
     }
 
     IEnumerator DesactiveOnTime(GameObject obj, float time)
@@ -105,9 +110,16 @@ public class MenuInterfaceController : MonoBehaviour
 
 
         obj.GetComponent<Animator>().Play("End");
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         obj.gameObject.SetActive(false);
  
+    }
+
+    IEnumerator MoveScreen6()
+    {
+        yield return new WaitForSeconds(2);
+
+        screens[6].DOMoveY(screens[6].position.y + 1071, 2f, true);
     }
 
 }
