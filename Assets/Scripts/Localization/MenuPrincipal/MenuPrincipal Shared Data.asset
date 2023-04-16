@@ -43,6 +43,10 @@ MonoBehaviour:
     m_Key: Tuto5
     m_Metadata:
       m_Items: []
+  - m_Id: 342833857880064
+    m_Key: Omitir
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
