@@ -59,7 +59,7 @@ public class HealthProgres : MonoBehaviour
     void Update()
     {
         BarRefresh(bar, actualvalue, max);
-        if(actualvalue<= 5)
+        if(actualvalue<= 15)
         {
             /*if(hide==false)*/ ShowAlert();
 

@@ -33,8 +33,8 @@ public class AmbientProgression : MonoBehaviour
 
     void IncraseBars()
     {
-        SetEnviromentValue(actEnv + (Time.deltaTime * 0.05f));
-        SetTreeGrowth(actTrGrw + (Time.deltaTime * 0.05f));
+        SetEnviromentValue(actEnv + (Time.deltaTime * 0.5f));
+        SetTreeGrowth(actTrGrw + (Time.deltaTime * 0.5f));
     }
     public float GetEnviromentValue()
     {
