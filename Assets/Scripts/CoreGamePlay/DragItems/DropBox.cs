@@ -7,19 +7,23 @@ using System;
 
 public class DropBox : MonoBehaviour, IDropHandler
 {
+    public Action Droped = delegate { };
     public event Action Refresh = delegate { };
     Items item;
-    DragableItem beforeItm;
+    public DragableItem beforeItm;
     public void OnDrop(PointerEventData eventData)
     {
+        Debug.Log("aa");
         if (transform.childCount == 0)
         {
+
             GameObject dropped = eventData.pointerDrag;
             DragableItem dragItem = dropped.GetComponent<DragableItem>();
             dragItem.afterParent = transform;
             item = dragItem.itm;
             beforeItm = dragItem;
             Refresh();
+            Droped.Invoke();
         }
     }
 
