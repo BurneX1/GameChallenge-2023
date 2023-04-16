@@ -11,11 +11,48 @@ public class HealthProgres : MonoBehaviour
     public Image bar;
     public bool hide;
     public float timeForDown;
+    public float downTimer;
+
+    public float loseTimer;
+    private float loseTime;
 
     // Start is called before the first frame update
     void Start()
     {
         
+    }
+
+    public void DownTime()
+    {
+        if(downTimer >= timeForDown)
+        {
+            actualvalue -= Time.deltaTime;
+        }
+        else
+        {
+            downTimer += Time.deltaTime;
+        }
+
+
+    }
+
+    public void LoseTime()
+    {
+        if(actualvalue <= 0)
+        {
+            if(loseTime>=loseTimer)
+            {
+                MenuInterfaceController.ChangeSceen("MenuPrincipal");
+            }
+            else
+            {
+                loseTime += Time.deltaTime;
+            }
+        }
+        else
+        {
+            loseTime = 0;
+        }
     }
 
     // Update is called once per frame
@@ -32,6 +69,8 @@ public class HealthProgres : MonoBehaviour
 
             /*if (hide == true)*/ HideAlert();
         }
+        DownTime();
+        LoseTime();
     }
 
     private void BarRefresh(Image box, float act, float max)

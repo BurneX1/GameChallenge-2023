@@ -6,17 +6,17 @@ public class ColorBolita : MonoBehaviour
 {
     public Image icon;
     public Color32[] colors;
-    public ClorofileReciver reciver;
+    public GameObject reciver;
 
 
     // Update is called once per frame
     void Update()
     {
-        if(icon.color!= colors[reciver.actualNum])
+        if(icon.color!= colors[reciver.GetComponent<ClorofileReciver>().actualNum])
         {
-            icon.color = colors[reciver.actualNum];
+            icon.color = colors[reciver.GetComponent<ClorofileReciver>().actualNum];
         }
-
+        transform.position = reciver.transform.position;
 
     }
 }

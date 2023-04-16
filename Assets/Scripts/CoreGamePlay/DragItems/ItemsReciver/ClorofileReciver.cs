@@ -76,6 +76,7 @@ public class ClorofileReciver : MonoBehaviour
         if (progress == null) return;
 
         progress.actualvalue += +box.beforeItm.itm.score;
+        progress.downTimer = 0;
     }
 
     public void IncorrectAnswer()

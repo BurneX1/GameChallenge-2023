@@ -46,6 +46,7 @@ public class AmbientProgression : MonoBehaviour
         if(val > maxEnviroment)
         {
             actEnv = maxEnviroment;
+            MenuInterfaceController.ChangeSceen("PantallaVictoria");
         }
         else
         {

@@ -41,7 +41,7 @@ public class MenuInterfaceController : MonoBehaviour
 
     public void ChangeScreen(int targetScreen) => MoveScreens(targetScreen);
 
-    public void ChangeSceen(string name)
+    public static void ChangeSceen(string name)
     {
         SceneManager.LoadScene(name);
     }
@@ -97,10 +97,10 @@ public class MenuInterfaceController : MonoBehaviour
             if (currentScreen != 0) StartCoroutine(DesactiveOnTime(screens[currentScreen].gameObject, duration));
         }
 
-        if(targetScreen == 6)
+        /*if(targetScreen == 7)
         {
             StartCoroutine(MoveScreen6());
-        }
+        }*/
     }
 
     IEnumerator DesactiveOnTime(GameObject obj, float time)
@@ -119,7 +119,7 @@ public class MenuInterfaceController : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
 
-        screens[6].DOMoveY(screens[6].position.y + 1071, 2f, true);
+        screens[8].DOMoveY(screens[6].position.y + 1071, 2f, true);
     }
 
 }
