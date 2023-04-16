@@ -26,11 +26,16 @@ public class AmbientProgression : MonoBehaviour
     }
     void Update()
     {
-        SetEnv();
-
-        SetGrowth();
+        //SetEnv();
+        IncraseBars();
+        //SetGrowth();
     }
 
+    void IncraseBars()
+    {
+        SetEnviromentValue(actEnv + (Time.deltaTime * 0.05f));
+        SetTreeGrowth(actTrGrw + (Time.deltaTime * 0.05f));
+    }
     public float GetEnviromentValue()
     {
         return actEnv;
@@ -38,7 +43,15 @@ public class AmbientProgression : MonoBehaviour
 
     public void SetEnviromentValue(float val)
     {
-        actEnv = val;
+        if(val > maxEnviroment)
+        {
+            actEnv = maxEnviroment;
+        }
+        else
+        {
+            actEnv = val;
+        }
+
         SetEnv();
     }
 
@@ -49,7 +62,16 @@ public class AmbientProgression : MonoBehaviour
 
     public void SetTreeGrowth(float val)
     {
-        actTrGrw = val;
+
+        if (val > maxTreeGrowth)
+        {
+            actTrGrw = maxTreeGrowth;
+        }
+        else
+        {
+            actTrGrw = val;
+        }
+
         SetGrowth();
     }
 

@@ -7,15 +7,16 @@ public class ClorofileReciver : MonoBehaviour
 {
     public UnityEvent OnError;
     public UnityEvent OnCorrect;
-    public AmbientProgression progress;
+    public HealthProgres progress;
 
     public DropBox box;
     public Items actualItm;
+    public int actualNum;
     public Items[] ReceptionValues;
     public Image receptShower;
     public float timeForChange;
     private float timer;
-    public bool enviroment;
+
     private void OnEnable()
     {
         box.Droped += CheckContent;
@@ -34,7 +35,7 @@ public class ClorofileReciver : MonoBehaviour
             newIt = (newIt + 1) % (ReceptionValues.Length - 1);
         }
 
-        
+        actualNum = newIt;
         actualItm = ReceptionValues[newIt];
         
         if (receptShower) receptShower.sprite = actualItm.image;
@@ -55,8 +56,8 @@ public class ClorofileReciver : MonoBehaviour
 
     public void CheckContent()
     {
-        Debug.Log(box.beforeItm.itm  + " / " + actualItm);
-        if (box.beforeItm.name == actualItm.name)
+        Debug.Log(box.beforeItm.itm.name  + " / " + actualItm.name);
+        if (box.beforeItm.itm.itemName == actualItm.itemName)
         {
             CorrectAnswer();
             Debug.Log("Nice");
@@ -66,6 +67,7 @@ public class ClorofileReciver : MonoBehaviour
             IncorrectAnswer();
             Debug.Log("Error");
         }
+        box.Clear();
     }
 
     public void CorrectAnswer()
@@ -73,14 +75,7 @@ public class ClorofileReciver : MonoBehaviour
         OnCorrect.Invoke();
         if (progress == null) return;
 
-        if(enviroment)
-        {
-            progress.SetEnviromentValue(progress.GetEnviromentValue() + box.beforeItm.itm.score);
-        }
-        else
-        {
-            progress.SetTreeGrowth(progress.GetTreeGrowth() + box.beforeItm.itm.score);
-        }
+        progress.actualvalue += +box.beforeItm.itm.score;
     }
 
     public void IncorrectAnswer()
