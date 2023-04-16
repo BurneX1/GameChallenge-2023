@@ -9,6 +9,7 @@ public class DropBox : MonoBehaviour, IDropHandler
 {
     public event Action Refresh = delegate { };
     Items item;
+    DragableItem beforeItm;
     public void OnDrop(PointerEventData eventData)
     {
         if (transform.childCount == 0)
@@ -17,7 +18,7 @@ public class DropBox : MonoBehaviour, IDropHandler
             DragableItem dragItem = dropped.GetComponent<DragableItem>();
             dragItem.afterParent = transform;
             item = dragItem.itm;
-
+            beforeItm = dragItem;
             Refresh();
         }
     }
@@ -40,9 +41,28 @@ public class DropBox : MonoBehaviour, IDropHandler
     }
     public void Clear()
     {
+
+
         foreach (Transform trs in transform)
         {
+            trs.gameObject.GetComponent<DragableItem>().afterParent = null;
             Destroy(trs.gameObject);
         }
+
+        if (beforeItm)
+        {
+            beforeItm.afterParent = null;
+        }
+    }
+
+    public void ForceAdd(GameObject obj)
+    {
+
+
+        DragableItem dragItem = obj.GetComponent<DragableItem>();
+        dragItem.afterParent = transform;
+        item = dragItem.itm;
+        beforeItm = dragItem;
+        Refresh();
     }
 }
