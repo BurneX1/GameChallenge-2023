@@ -71,53 +71,32 @@ public class MenuInterfaceController : MonoBehaviour
             {
                 screens[i].DOAnchorPosX(screens[i].position.x + xMoveDistance, duration, true);
                 screens[i].DOMoveX(screens[i].position.x - xMoveDistance, duration, true);
-                if (currentScreen != 0) StartCoroutine(DesactiveOnTime(screens[currentScreen].gameObject, duration));
+
             }
             else if(dir.x == -1)
             {
                 screens[i].DOAnchorPosX(screens[i].position.x - xMoveDistance, duration, true);
                 screens[i].DOMoveX(screens[i].position.x + xMoveDistance, duration, true);
-                if (currentScreen != 0) StartCoroutine(DesactiveOnTime(screens[currentScreen].gameObject, duration));
+
             }
 
             if (dir.y == 1)
             {
                 screens[i].DOAnchorPosY(screens[i].position.y + yMoveDistance, duration, true);
                 screens[i].DOMoveY(screens[i].position.y - yMoveDistance, duration, true);
-                if (currentScreen != 0) StartCoroutine(DesactiveOnTime(screens[currentScreen].gameObject, duration));
+
             }
             else if (dir.y == -1)
             {
                 screens[i].DOAnchorPosY(screens[i].position.y - yMoveDistance, duration, true);
                 screens[i].DOMoveY(screens[i].position.y + yMoveDistance, duration, true);
-                if (currentScreen != 0) StartCoroutine(DesactiveOnTime(screens[currentScreen].gameObject, duration));
+                
             }
 
+
+            if (currentScreen != 0) StartCoroutine(DesactiveOnTime(screens[currentScreen].gameObject, duration));
         }
     }
-
-
-
-    public void TweenPopUp(Transform popUp)
-    {
-
-        popUp.localScale = Vector3.zero;
-        popUp.gameObject.SetActive(true);
-        popUp.DOScale(1, duration);
-    }
-
-    public void HidePopUp(Transform popUp) => StartCoroutine(hidePop(popUp));
-
-    private IEnumerator hidePop(Transform popUp)
-    {
-        popUp.DOScale(0, duration);
-        yield return new WaitUntil(() => popUp.localScale == Vector3.zero);
-
-        popUp.gameObject.SetActive(false);
-    }
-
-
-    public void RedirectToLink(string link) => Application.OpenURL(link);
 
     IEnumerator DesactiveOnTime(GameObject obj, float time)
     {
