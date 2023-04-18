@@ -30,8 +30,8 @@ public class SwipeController : MonoBehaviour
             startTouchPosition = Input.GetTouch(0).position;
         }
 
-        if (Vector2.Distance(startTouchPosition, endTouchPosition) > 3)
-        {
+        //if (Vector2.Distance(startTouchPosition, endTouchPosition) > 3)
+        //{
             if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
             {
                 if (Mathf.Abs(endTouchPosition.x - startTouchPosition.x) >= Mathf.Abs(endTouchPosition.y - startTouchPosition.y))
@@ -59,7 +59,7 @@ public class SwipeController : MonoBehaviour
                     }
                 }
             }
-        }
+        //s}
         
     }
 
