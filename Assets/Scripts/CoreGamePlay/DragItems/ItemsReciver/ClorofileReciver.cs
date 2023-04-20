@@ -25,8 +25,9 @@ public class ClorofileReciver : MonoBehaviour
     {
         box.Droped -= CheckContent;
     }
-    void ChangeReception()
+    public void ChangeReception()
     {
+        timer = 0;
         if (ReceptionValues.Length <= 1) return;
 
         int newIt = Random.Range(0, ReceptionValues.Length);
