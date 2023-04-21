@@ -27,7 +27,7 @@ public class AmbientProgression : MonoBehaviour
     void Update()
     {
         //SetEnv();
-        IncraseBars();
+        //IncraseBars();
         //SetGrowth();
     }
 

@@ -12,6 +12,7 @@ public class ClorofileReciver : MonoBehaviour
     public DropBox box;
     public Items actualItm;
     public int actualNum;
+    public bool reciveAllList;
     public Items[] ReceptionValues;
     public Image receptShower;
     public float timeForChange;
@@ -57,17 +58,32 @@ public class ClorofileReciver : MonoBehaviour
 
     public void CheckContent()
     {
-        Debug.Log(box.beforeItm.itm.name  + " / " + actualItm.name);
-        if (box.beforeItm.itm.itemName == actualItm.itemName)
+        if(reciveAllList)
         {
-            CorrectAnswer();
-            Debug.Log("Nice");
+            for(int i = 0; i < ReceptionValues.Length; i++)
+            {
+                if (box.beforeItm.itm.itemName == ReceptionValues[i].itemName)
+                {
+                    CorrectAnswer();
+                    Debug.Log("Nice");
+                }
+            }
         }
         else
         {
-            IncorrectAnswer();
-            Debug.Log("Error");
+            Debug.Log(box.beforeItm.itm.name + " / " + actualItm.name);
+            if (box.beforeItm.itm.itemName == actualItm.itemName)
+            {
+                CorrectAnswer();
+                Debug.Log("Nice");
+            }
+            else
+            {
+                IncorrectAnswer();
+                Debug.Log("Error");
+            }
         }
+        
         box.Clear();
     }
 

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ItemReffiller : MonoBehaviour
 {
+    public string objTag = "ItmContainer";
     public GameObject[] ItemsList;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,7 @@ public class ItemReffiller : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "ItmContainer")
+        if(collision.gameObject.tag == objTag)
         {
             DropBox drop = collision.gameObject.GetComponent<DropBox>();
 
@@ -30,7 +31,7 @@ public class ItemReffiller : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "ItmContainer")
+        if (collision.gameObject.tag == objTag)
         {
             DropBox drop = collision.gameObject.GetComponent<DropBox>();
             GameObject newItem = Instantiate(ItemsList[Random.Range(0, ItemsList.Length)], collision.gameObject.transform);

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: H2O
   image: {fileID: 21300000, guid: 430ffa0b044c88a4b81ca11bdc3ec60f, type: 3}
-  score: 2
+  score: 1

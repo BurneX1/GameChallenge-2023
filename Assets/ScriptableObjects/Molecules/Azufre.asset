@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Azufre
   image: {fileID: 21300000, guid: 832fa58be1074cf47ab0c1e67d4aaca5, type: 3}
-  score: 2
+  score: 1

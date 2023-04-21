@@ -3,8 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEngine.Events;
 public class HealthProgres : MonoBehaviour
 {
+    private Color green = new Color(102,243,79);    
+    private Color yelow = new Color(243, 236, 79);    
+    private Color red = new Color(255, 1, 62);
+    private bool finished = false;
+    public UnityEvent finishBarEv;
     [HideInInspector]
     public GameObject[] loadParts;
     private int fragCount = -1;
@@ -114,6 +120,10 @@ public class HealthProgres : MonoBehaviour
             DownTime();
             LoseTime();
         }
+        if(finished==false && actualvalue >= max)
+        {
+            finishBarEv.Invoke();
+        }
 
     }
 
@@ -129,11 +139,26 @@ public class HealthProgres : MonoBehaviour
     {
         if((int)actualvalue != fragCount)
         {
+            Color setColor;
+            if(actualvalue<max/3)
+            {
+                setColor = red;
+            }
+            else if (actualvalue < (max / 2)+1)
+            {
+                setColor = yelow;
+            }
+            else
+            {
+                setColor = green;
+            }
+
             for(int i = 0; i < loadParts.Length; i++)
             {
                 if(i < (int)actualvalue)
                 {
                     loadParts[i].SetActive(true);
+                    
                 }
                 else
                 {
@@ -146,8 +171,8 @@ public class HealthProgres : MonoBehaviour
 
     void HideAlert()
     {
-        
-        foreach(GameObject obj in alert)
+        if (alert.Length <= 0) return;
+        foreach (GameObject obj in alert)
         {
             obj.SetActive(false);
         }
@@ -155,7 +180,7 @@ public class HealthProgres : MonoBehaviour
     }
     void ShowAlert()
     {
-
+        if (alert.Length <= 0) return;
         foreach (GameObject obj in alert)
         {
             obj.SetActive(true);

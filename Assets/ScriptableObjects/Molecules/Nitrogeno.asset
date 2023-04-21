@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Nitrogeno
   image: {fileID: 21300000, guid: 134d518607955d540b7a9a5acb35c88b, type: 3}
-  score: 2
+  score: 1

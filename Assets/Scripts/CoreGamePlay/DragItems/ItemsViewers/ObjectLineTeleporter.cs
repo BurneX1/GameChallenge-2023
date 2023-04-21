@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ObjectLineTeleporter : MonoBehaviour
 {
+    public string objTag = "ItmContainer";
     public GameObject[] objcets;
     public Vector2 vel;
     public Transform respawnPos;
@@ -35,7 +36,7 @@ public class ObjectLineTeleporter : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "ItmContainer")
+        if (collision.gameObject.tag == objTag)
         {
             collision.gameObject.transform.position = respawnPos.position;
         }

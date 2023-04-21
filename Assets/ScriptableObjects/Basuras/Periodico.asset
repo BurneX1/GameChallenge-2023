@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95a1ae5e0439b314183a09e3228acbb0, type: 3}
-  m_Name: Clorofila
+  m_Name: Periodico
   m_EditorClassIdentifier: 
-  itemName: Clorofila
-  image: {fileID: 21300000, guid: 560c23b1a5dda804fa6a38e814f3d3d4, type: 3}
-  score: 1
+  itemName: Periodico
+  image: {fileID: 21300000, guid: 77ae2f90314534945bbad9a1ccbcb49c, type: 3}
+  score: 0

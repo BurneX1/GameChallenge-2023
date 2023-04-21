@@ -105,21 +105,24 @@ public class MenuInterfaceController : MonoBehaviour
 
     IEnumerator DesactiveOnTime(GameObject obj, float time)
     {
-        yield return new WaitForSeconds(time);
+        //yield return new WaitForSeconds(time);
    
 
 
         obj.GetComponent<Animator>().Play("End");
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(1.0f);
         obj.gameObject.SetActive(false);
  
     }
-
-    IEnumerator MoveScreen6()
+    public void DelayChangeScreen(int num)
     {
-        yield return new WaitForSeconds(2);
+        StartCoroutine(DelayScreenMove(num));
+    }
+    IEnumerator DelayScreenMove(int num)
+    {
+        yield return new WaitForSeconds(5);
 
-        screens[8].DOMoveY(screens[6].position.y + 1071, 2f, true);
+        MoveScreens(num);
     }
 
 }
