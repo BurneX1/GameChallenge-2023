@@ -17,12 +17,6 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 96e268c1eda420b44badac8d92d9ecc3
   m_SerializeEntries:
-  - m_GUID: 4769a45e0fce6544ea0c0640be2e134b
-    m_Address: Engligh on
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1749e7cd31a0c6a4a8fa38946a3cb020
     m_Address: GANASTE_Eng
     m_ReadOnly: 1

@@ -110,7 +110,7 @@ public class MenuInterfaceController : MonoBehaviour
 
 
         obj.GetComponent<Animator>().Play("End");
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
         obj.gameObject.SetActive(false);
  
     }
