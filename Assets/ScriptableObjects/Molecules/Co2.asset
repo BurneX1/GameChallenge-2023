@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Co2
   m_EditorClassIdentifier: 
   itemName: Co2
-  image: {fileID: 21300000, guid: 560c23b1a5dda804fa6a38e814f3d3d4, type: 3}
+  image: {fileID: 21300000, guid: 5cef2653c481c0e40b08d1f62ba7cce4, type: 3}
   score: 1

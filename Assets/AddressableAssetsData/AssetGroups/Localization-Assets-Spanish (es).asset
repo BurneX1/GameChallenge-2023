@@ -17,8 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 72f13e7005fa8614fb70c268746eb5de
   m_SerializeEntries:
-  - m_GUID: 0212d2ef78a56564fa9ab32e8b0585c3
-    m_Address: tranparente
+  - m_GUID: 9e9ecfcac5990ef4e8355e6698bac0ff
+    m_Address: Victoria_Esp
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es

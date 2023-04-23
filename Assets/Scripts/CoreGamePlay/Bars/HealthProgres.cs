@@ -169,6 +169,10 @@ public class HealthProgres : MonoBehaviour
         }
     }
 
+    public void Increase(int value)
+    {
+        actualvalue += value;
+    }
     void HideAlert()
     {
         if (alert.Length <= 0) return;
