@@ -51,6 +51,10 @@ MonoBehaviour:
     m_Key: HIstoria
     m_Metadata:
       m_Items: []
+  - m_Id: 3530571278401536
+    m_Key: Glosario
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

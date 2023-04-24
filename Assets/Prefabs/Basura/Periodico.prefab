@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3082128184662167407}
   - component: {fileID: 3082128184662167404}
   - component: {fileID: 3082128184662167405}
+  - component: {fileID: 8252162382117780659}
   m_Layer: 5
   m_Name: Periodico
   m_TagString: Untagged
@@ -28,7 +29,7 @@ RectTransform:
   m_GameObject: {fileID: 3082128184662167402}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.76929, y: 0.76929, z: 0.76929}
+  m_LocalScale: {x: 0.3794523, y: 0.3794523, z: 0.3794523}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -36,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 230, y: 187}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3082128184662167407
 CanvasRenderer:
@@ -97,3 +98,20 @@ MonoBehaviour:
   img: {fileID: 3082128184662167404}
   afterParent: {fileID: 0}
   itm: {fileID: 11400000, guid: a9e6e474a18771640ab08fdf9ea810e2, type: 2}
+--- !u!114 &8252162382117780659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3082128184662167402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e4395bc9107d894390bdfd095bb6dad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  world: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 1
+  loopSpd: 0.1

@@ -56,5 +56,9 @@ MonoBehaviour:
     m_Localized: Historia
     m_Metadata:
       m_Items: []
+  - m_Id: 3530571278401536
+    m_Localized: Glosario
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
