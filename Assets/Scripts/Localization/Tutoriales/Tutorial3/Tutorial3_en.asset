@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tutorial3_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: c689877da0972f340bdbed93762dac37, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5675347968
+    m_Localized: Time to create glucose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146968866816
+    m_Localized: After feeding, the plant forms its food by combining the <color=e0770d>raw
+      sap</color> with the <color=21ae0a>elaborated sap</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 741389824000
+    m_Localized: You must form 5 glucoses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 853495181312
+    m_Localized: The plant needs it to feed itself
+    m_Metadata:
+      m_Items: []
+  - m_Id: 977915015168
+    m_Localized: Touch to continue
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
