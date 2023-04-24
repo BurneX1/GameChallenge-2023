@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95a1ae5e0439b314183a09e3228acbb0, type: 3}
   m_Name: h2o
   m_EditorClassIdentifier: 
-  itemName: H2O
+  itemName: Agua
   image: {fileID: 21300000, guid: 430ffa0b044c88a4b81ca11bdc3ec60f, type: 3}
   score: 1

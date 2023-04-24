@@ -2580,7 +2580,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &126160663
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8738,6 +8738,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   progress: {fileID: 133556564}
+  text: {fileID: 0}
   box: {fileID: 474621291}
   actualItm: {fileID: 0}
   actualNum: 0
@@ -10551,6 +10552,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   progress: {fileID: 211676126}
+  text: {fileID: 0}
   box: {fileID: 592349707}
   actualItm: {fileID: 0}
   actualNum: 0
@@ -13132,6 +13134,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   progress: {fileID: 133556564}
+  text: {fileID: 0}
   box: {fileID: 732606826}
   actualItm: {fileID: 0}
   actualNum: 0
@@ -26388,7 +26391,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1433295020
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28244,6 +28247,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   progress: {fileID: 358549046}
+  text: {fileID: 0}
   box: {fileID: 1519202644}
   actualItm: {fileID: 11400000, guid: ac0ff461add9e1148b431c8a3e7b21e9, type: 2}
   actualNum: 0
@@ -30828,7 +30832,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.261}
   m_AnchorMax: {x: 0.5, y: 0.3488126}
-  m_AnchoredPosition: {x: 1, y: -46.5}
+  m_AnchoredPosition: {x: 1, y: -46.49994}
   m_SizeDelta: {x: 610, y: 2.4000168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1712336072
@@ -32033,6 +32037,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   progress: {fileID: 133556564}
+  text: {fileID: 0}
   box: {fileID: 1761005628}
   actualItm: {fileID: 0}
   actualNum: 0
@@ -33226,6 +33231,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   progress: {fileID: 133556564}
+  text: {fileID: 0}
   box: {fileID: 1811784052}
   actualItm: {fileID: 0}
   actualNum: 0
@@ -34194,6 +34200,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   progress: {fileID: 133556564}
+  text: {fileID: 0}
   box: {fileID: 1861117884}
   actualItm: {fileID: 0}
   actualNum: 0
@@ -35831,6 +35838,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   progress: {fileID: 1452524898}
+  text: {fileID: 1433295021}
   box: {fileID: 1926955538}
   actualItm: {fileID: 0}
   actualNum: 0

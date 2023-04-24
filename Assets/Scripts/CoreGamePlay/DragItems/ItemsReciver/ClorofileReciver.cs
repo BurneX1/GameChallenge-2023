@@ -3,12 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using TMPro;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Tables;
+using UnityEngine.Localization.Components;
+using UnityEngine.Localization.Events;
+using UnityEngine.Localization.Metadata;
+using UnityEngine.Localization.Platform;
+using UnityEngine.Localization.PropertyVariants;
+using UnityEngine.Localization.Pseudo;
+using UnityEngine.Localization.Settings;
+using UnityEngine.Localization.SmartFormat;
+
 public class ClorofileReciver : MonoBehaviour
 {
     public UnityEvent OnError;
     public UnityEvent OnCorrect;
     public HealthProgres progress;
-
+    public TextMeshProUGUI text;
     public DropBox box;
     public Items actualItm;
     public int actualNum;
@@ -41,8 +53,13 @@ public class ClorofileReciver : MonoBehaviour
         actualItm = ReceptionValues[newIt];
         
         if (receptShower) receptShower.sprite = actualItm.image;
+        if (text) SetText();
     }
 
+    void SetText()
+    {
+        text.text = LocalizationSettings.StringDatabase.GetLocalizedString("Elements", actualItm.itemName);
+    }
     void TimeLoad()
     {
         if(timer<=timeForChange)

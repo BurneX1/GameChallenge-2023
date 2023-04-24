@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Elements_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 34062cc6514822b42aa57f505a913be4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 12472238080
+    m_Localized: Azufre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115715031040
+    m_Localized: Potasio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206651736064
+    m_Localized: Clorofila
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248791908352
+    m_Localized: "Di\xF3xido de Carbono"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356333862912
+    m_Localized: Fosforo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 418644443136
+    m_Localized: Agua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 459413078016
+    m_Localized: Magnesio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 501624553472
+    m_Localized: Nitrogeno
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
