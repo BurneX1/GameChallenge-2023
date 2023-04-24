@@ -338,10 +338,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 816543353}
-        m_TargetAssemblyTypeName: ManagerHistoria, Assembly-CSharp
-        m_MethodName: CompletarHistoria
-        m_Mode: 1
+      - m_Target: {fileID: 816543351}
+        m_TargetAssemblyTypeName: MenuInterfaceController, Assembly-CSharp
+        m_MethodName: ChangeSceen
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3572,7 +3572,6 @@ GameObject:
   m_Component:
   - component: {fileID: 816543352}
   - component: {fileID: 816543351}
-  - component: {fileID: 816543353}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3614,20 +3613,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &816543353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816543350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 284d430ee98f9fe4698e22e3d0efd744, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HistoriaHecha: 0
-  SName: MenuPrincipal
 --- !u!1 &923694146
 GameObject:
   m_ObjectHideFlags: 0

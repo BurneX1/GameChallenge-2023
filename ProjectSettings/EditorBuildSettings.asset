@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Historia.unity
     guid: eea025401f7cdb640b6db9c74d5a9622
+  - enabled: 1
+    path: Assets/Scenes/HistoriaInGame.unity
+    guid: 79bfc484c2ab7bb428401cd876179c9e
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: b448298c566621d489463df27179ca65, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 0b4d3f2bb0b486c48bb3212375095994, type: 2}
