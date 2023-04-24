@@ -9,6 +9,8 @@ using System;
 
 public class MenuInterfaceController : MonoBehaviour
 {
+    [Header("Transition")]
+    public static Animator transition;
     [Header("FadeScreen")]
     public float duration;
 
@@ -43,7 +45,7 @@ public class MenuInterfaceController : MonoBehaviour
 
     public static void ChangeSceen(string name)
     {
-        SceneManager.LoadScene(name);
+        SceneChange.Change(name);
     }
 
     private void MoveScreens(int targetScreen)
@@ -112,6 +114,10 @@ public class MenuInterfaceController : MonoBehaviour
         obj.GetComponent<Animator>().Play("End");
         yield return new WaitForSeconds(1.0f);
         obj.gameObject.SetActive(false);
+        if(screens[currentScreenIndex].gameObject == obj)
+        {
+            obj.gameObject.SetActive(true);
+        }
  
     }
     public void DelayChangeScreen(int num)

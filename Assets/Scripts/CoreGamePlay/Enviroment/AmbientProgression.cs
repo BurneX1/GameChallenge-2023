@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AmbientProgression : MonoBehaviour
 {
     bool enumer = false;
 
     [Header("Enviroment")]
+    public Image imgEnv;
     public float maxEnviroment = 1;
     [Range(0, 100)]
     [SerializeField]
@@ -14,6 +16,7 @@ public class AmbientProgression : MonoBehaviour
     public GameObject[] envParts;
     
     [Header("TreeGrowth")]
+    public Image imgGrw;
     public float maxTreeGrowth = 1;
     [Range(0,100)]
     [SerializeField]
@@ -26,6 +29,15 @@ public class AmbientProgression : MonoBehaviour
     }
     void Update()
     {
+        if(imgEnv)
+        {
+            BarRefresh(imgEnv, actEnv, maxEnviroment);
+        }
+
+        if(imgGrw)
+        {
+            BarRefresh(imgGrw, actTrGrw, maxTreeGrowth);
+        }
         //SetEnv();
         //IncraseBars();
         //SetGrowth();
@@ -148,7 +160,13 @@ public class AmbientProgression : MonoBehaviour
         }
     }
     // Update is called once per frame
- 
+    private void BarRefresh(Image box, float act, float max)
+    {
+        if (box.fillAmount != act / max)
+        {
+            box.fillAmount = Mathf.Lerp(box.fillAmount, act / max, Time.deltaTime);
+        }
+    }
     public  IEnumerator UIDegrade(Animator obj)
     {
         if(enumer == true)

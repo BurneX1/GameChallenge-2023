@@ -6,9 +6,9 @@ using System.Linq;
 using UnityEngine.Events;
 public class HealthProgres : MonoBehaviour
 {
-    private Color green = new Color(102,243,79);    
-    private Color yelow = new Color(243, 236, 79);    
-    private Color red = new Color(255, 1, 62);
+    private Color green = new Color(0.40000f, 0.95294f, 0.30980f, 1);    
+    private Color yelow = new Color(0.95294f, 0.92549f, 0.30980f, 1);    
+    private Color red = new Color(1.00000f, 0.00392f, 0.24314f, 1);
     private bool finished = false;
     public UnityEvent finishBarEv;
     [HideInInspector]
@@ -157,7 +157,9 @@ public class HealthProgres : MonoBehaviour
             {
                 if(i < (int)actualvalue)
                 {
+                    loadParts[i].GetComponent<Image>().color = setColor;
                     loadParts[i].SetActive(true);
+
                     
                 }
                 else
