@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Glosario_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 5beff0109011ca946a2fe3570e185ca1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 14516940800
+    m_Localized: GLOSSARY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209094897664
+    m_Localized: Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621311094784
+    m_Localized: Index
+    m_Metadata:
+      m_Items: []
+  - m_Id: 978196033536
+    m_Localized: SULPHUR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2509351874560
+    m_Localized: Sulfur is a yellow chemical element with a strong odor similar to
+      rotten eggs. Although its odor can be unpleasant, sulfur is very useful in
+      the production of fireworks, medicines, food and in agriculture to help plants
+      grow healthy. In addition, sulfur is essential for life on Earth, as it is
+      found in many proteins in our bodies and those of other living things.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2812079960064
+    m_Localized: Chlorophyll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3181073854464
+    m_Localized: 'Chlorophyll is like "food" for plants. It gives them green color
+      and helps them make their own food. Plants use chlorophyll to take sunlight
+      and convert it into energy, in a process called photosynthesis.
+
+      It''s
+      as if plants have their own solar stove. Chlorophyll is like the main ingredient
+      in their recipe for making food, and without it, plants couldn''t survive.
+      That''s why it''s so important!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3864917372928
+    m_Localized: CO2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5258030280704
+    m_Localized: 'CO2 is an important gas for plants because it helps them make their
+      own food in a process called photosynthesis.
+
+      Plants absorb CO2 from
+      the air through tiny holes in their leaves called stomata. Then, along with
+      sunlight and water, plants use the CO2 to make glucose, which is like their
+      food.
+
+      So CO2 is like a key ingredient in the plants'' food recipe.
+      Without it, plants could not survive or grow.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

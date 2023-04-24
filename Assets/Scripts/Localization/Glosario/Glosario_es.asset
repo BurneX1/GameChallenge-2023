@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Glosario_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 5beff0109011ca946a2fe3570e185ca1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 14516940800
+    m_Localized: GLOSARIO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209094897664
+    m_Localized: "Men\xFA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621311094784
+    m_Localized: "\xCDndice"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 978196033536
+    m_Localized: AZUFRE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2509351874560
+    m_Localized: "El azufre es un elemento qu\xEDmico amarillo y con un olor fuerte
+      similar al de los huevos podridos. Aunque su olor puede ser desagradable, el
+      azufre es muy \xFAtil en la producci\xF3n de fuegos artificiales, medicamentos,
+      alimentos y en la agricultura para ayudar a que las plantas crezcan sanas.
+      Adem\xE1s, el azufre es esencial para la vida en la Tierra, ya que se encuentra
+      en muchas prote\xEDnas en nuestros cuerpos y en los de otros seres vivos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2812079960064
+    m_Localized: Clorofila
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3181073854464
+    m_Localized: "La clorofila es como la \"comida\" de las plantas. Les da el color
+      verde y les ayuda a hacer su propia comida. Las plantas usan la clorofila para
+      tomar la luz del sol y convertirla en energ\xEDa, en un proceso llamado fotos\xEDntesis.\nEs
+      como si las plantas tuvieran su propia cocina solar. La clorofila es como el
+      ingrediente principal de su receta para hacer comida, y sin ella, las plantas
+      no podr\xEDan sobrevivir. \xA1Por eso es tan importante!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3864917372928
+    m_Localized: CO2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5258030280704
+    m_Localized: "El CO2 es un gas importante para las plantas porque les ayuda a
+      hacer su propia comida en un proceso llamado fotos\xEDntesis.\nLas plantas
+      absorben el CO2 del aire a trav\xE9s de peque\xF1os agujeros en sus hojas llamados
+      estomas. Luego, junto con la luz del sol y el agua, las plantas usan el CO2
+      para hacer glucosa, que es como su alimento.\nEntonces, el CO2 es como un ingrediente
+      clave en la receta de comida de las plantas. Sin \xE9l, las plantas no podr\xEDan
+      sobrevivir ni crecer."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

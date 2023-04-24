@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Glosario Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Glosario
+  m_TableCollectionNameGuidString: 5beff0109011ca946a2fe3570e185ca1
+  m_Entries:
+  - m_Id: 14516940800
+    m_Key: Glosario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209094897664
+    m_Key: Button_Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621311094784
+    m_Key: Indice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 978196033536
+    m_Key: Azufre_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2509351874560
+    m_Key: Azufre_Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2812079960064
+    m_Key: Clorofila_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3181073854464
+    m_Key: Clorofila_Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3864917372928
+    m_Key: CO2_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5258030280704
+    m_Key: CO2_Description
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1682370894661
