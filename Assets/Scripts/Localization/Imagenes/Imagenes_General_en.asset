@@ -34,5 +34,9 @@ MonoBehaviour:
     m_Localized: 1749e7cd31a0c6a4a8fa38946a3cb020[GANASTE_Eng]
     m_Metadata:
       m_Items: []
+  - m_Id: 3017904576983040
+    m_Localized: 4769a45e0fce6544ea0c0640be2e134b
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

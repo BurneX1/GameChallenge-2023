@@ -29,6 +29,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d211fcf0e567a7c43a9eca8957b5972c
+    m_Address: "Espa\xF1ol on"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 9966ce6b0e5613c49992b9686e561f0b, type: 2}
   m_SchemaSet:
