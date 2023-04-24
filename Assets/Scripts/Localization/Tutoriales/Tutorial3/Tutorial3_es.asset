@@ -23,8 +23,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 146968866816
-    m_Localized: "Despu\xE9s de nutrirse, la planta forma su comida juntando la <color=orange>sabia
-      bruta</color> con la <color=green>sabia elavorada</color>"
+    m_Localized: "Despu\xE9s de nutrirse, la planta forma su comida juntando la <color=#2DA8E0>sabia
+      bruta</color> con la <color=orange>sabia elavorada</color>"
     m_Metadata:
       m_Items: []
   - m_Id: 741389824000
