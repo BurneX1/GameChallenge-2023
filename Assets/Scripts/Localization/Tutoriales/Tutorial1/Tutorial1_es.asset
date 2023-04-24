@@ -32,7 +32,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 512359854080
-    m_Localized: "Esto carga tu barra de <color=21ae0a>nutrici\xF3n</color>"
+    m_Localized: "Esto carga tu barra de <color=green>nutrici\xF3n</color>"
     m_Metadata:
       m_Items: []
   - m_Id: 686637379584

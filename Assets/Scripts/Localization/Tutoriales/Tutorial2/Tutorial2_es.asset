@@ -23,12 +23,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 127125614592
-    m_Localized: "Las plantas absorben <color=CBCA00>energ\xEDa solar</color> y <color=black>dioxido
+    m_Localized: "Las plantas absorben <color=yellow>energ\xEDa solar</color> y <color=black>dioxido
       de carbono</color> para nutrirse"
     m_Metadata:
       m_Items: []
   - m_Id: 1955070406656
-    m_Localized: "Esto carga tu barra de <color=21ae0a>nutrici\xF3n</color>"
+    m_Localized: "Esto carga tu barra de <color=green>nutrici\xF3n</color>"
     m_Metadata:
       m_Items: []
   - m_Id: 2419497299968

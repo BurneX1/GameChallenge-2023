@@ -23,8 +23,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 146968866816
-    m_Localized: After feeding, the plant forms its food by combining the <color=e0770d>raw
-      sap</color> with the <color=21ae0a>elaborated sap</color>
+    m_Localized: After feeding, the plant forms its food by combining the <color=orange>raw
+      sap</color> with the <color=green>elaborated sap</color>
     m_Metadata:
       m_Items: []
   - m_Id: 741389824000

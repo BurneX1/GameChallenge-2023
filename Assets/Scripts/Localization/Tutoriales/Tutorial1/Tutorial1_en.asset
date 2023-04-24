@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 512359854080
-    m_Localized: This loads your <color=21ae0a>nutrition bar</color>.
+    m_Localized: This loads your <color=green>nutrition bar</color>
     m_Metadata:
       m_Items: []
   - m_Id: 686637379584
