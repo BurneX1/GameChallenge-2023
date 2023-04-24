@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tutorial2_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 210d25789852aa24ea7e2a43936e7b3b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6266744832
+    m_Localized: "Llena de energ\xEDa al reto\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127125614592
+    m_Localized: "Las plantas absorben <color=CBCA00>energ\xEDa solar</color> y <color=black>dioxido
+      de carbono</color> para nutrirse"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1955070406656
+    m_Localized: "Esto carga tu barra de <color=21ae0a>nutrici\xF3n</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2419497299968
+    m_Localized: "Ll\xE9nala para que la planta se llene de energ\xEDa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2564783796224
+    m_Localized: Toca para continuar
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

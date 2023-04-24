@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Tutorial2 Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Tutorial2
+  m_TableCollectionNameGuidString: 210d25789852aa24ea7e2a43936e7b3b
+  m_Entries:
+  - m_Id: 6266744832
+    m_Key: Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127125614592
+    m_Key: Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1955070406656
+    m_Key: TitleCapibara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2419497299968
+    m_Key: SubtitleCapibara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2564783796224
+    m_Key: TocaPara
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1682304705987
