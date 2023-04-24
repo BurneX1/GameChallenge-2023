@@ -39,5 +39,10 @@ MonoBehaviour:
     m_Localized: Toca para continuar
     m_Metadata:
       m_Items: []
+  - m_Id: 242937951088640
+    m_Localized: "\xA1Lleva la <sprite=2> hacia la <sprite=3> para que formen la
+      glucosa!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

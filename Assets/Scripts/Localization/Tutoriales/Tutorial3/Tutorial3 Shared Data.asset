@@ -35,6 +35,10 @@ MonoBehaviour:
     m_Key: TocaPara
     m_Metadata:
       m_Items: []
+  - m_Id: 242937951088640
+    m_Key: Subtitle
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

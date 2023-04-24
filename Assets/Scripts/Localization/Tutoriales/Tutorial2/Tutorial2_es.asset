@@ -39,5 +39,10 @@ MonoBehaviour:
     m_Localized: Toca para continuar
     m_Metadata:
       m_Items: []
+  - m_Id: 254691158454272
+    m_Localized: "\xA1Dale a la planta los <sprite=0> y los <sprite=1> pero cuidado
+      con la basura que vuela!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

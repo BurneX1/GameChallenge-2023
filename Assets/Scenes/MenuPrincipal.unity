@@ -3909,9 +3909,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:8c845a59c491729479dfed76b151bdfb
+      m_TableCollectionName: GUID:c689877da0972f340bdbed93762dac37
     m_TableEntryReference:
-      m_KeyId: 372102328320
+      m_KeyId: 242937951088640
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -3954,7 +3954,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xA1Lleva la ## hacia la ## para que formen la glucosa!"
+  m_text: "\xA1Lleva la <sprite=2> hacia la <sprite=3> para que formen la glucosa!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d717ea5f3cfb5f04b848582f5f153189, type: 2}
   m_sharedMaterial: {fileID: -6844290880349285493, guid: d717ea5f3cfb5f04b848582f5f153189, type: 2}
@@ -3973,7 +3973,7 @@ MonoBehaviour:
     bottomLeft: {r: 1, g: 1, b: 1, a: 1}
     bottomRight: {r: 1, g: 1, b: 1, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
+  m_spriteAsset: {fileID: 11400000, guid: ed2c819983f18c14aaa488493ce4157a, type: 2}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
   m_TextStyleHashCode: -1183493901
@@ -23969,7 +23969,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 994fcd319306c154fb8e7fc6b847572f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7e0b0d4ac97dc2d4a850560cfb456567, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -27399,7 +27399,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 994fcd319306c154fb8e7fc6b847572f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7e0b0d4ac97dc2d4a850560cfb456567, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -33305,9 +33305,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:8c845a59c491729479dfed76b151bdfb
+      m_TableCollectionName: GUID:210d25789852aa24ea7e2a43936e7b3b
     m_TableEntryReference:
-      m_KeyId: 372102328320
+      m_KeyId: 254691158454272
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -33350,7 +33350,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xA1Dale a la planta los ## y los ## pero cuidado con la basura que vuela!"
+  m_text: "\xA1Dale a la planta los <sprite=0> y los <sprite=1> pero cuidado con
+    la basura que vuela!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d717ea5f3cfb5f04b848582f5f153189, type: 2}
   m_sharedMaterial: {fileID: -6844290880349285493, guid: d717ea5f3cfb5f04b848582f5f153189, type: 2}
@@ -33369,7 +33370,7 @@ MonoBehaviour:
     bottomLeft: {r: 1, g: 1, b: 1, a: 1}
     bottomRight: {r: 1, g: 1, b: 1, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
+  m_spriteAsset: {fileID: 11400000, guid: ed2c819983f18c14aaa488493ce4157a, type: 2}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
   m_TextStyleHashCode: -1183493901
@@ -39489,8 +39490,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0.0014648438, y: -12.824905}
-  m_SizeDelta: {x: -147.32462, y: 110.3948}
+  m_AnchoredPosition: {x: 0, y: -6.3476}
+  m_SizeDelta: {x: -0.00012207, y: 110.3948}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2102017637
 MonoBehaviour:

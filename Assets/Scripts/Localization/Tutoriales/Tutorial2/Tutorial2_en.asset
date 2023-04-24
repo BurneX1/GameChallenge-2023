@@ -39,5 +39,10 @@ MonoBehaviour:
     m_Localized: Touch to continue
     m_Metadata:
       m_Items: []
+  - m_Id: 254691158454272
+    m_Localized: Give the plant the <sprite=0> and the <sprite=1> but watch out for
+      flying garbage!
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

@@ -39,5 +39,9 @@ MonoBehaviour:
     m_Localized: Touch to continue
     m_Metadata:
       m_Items: []
+  - m_Id: 242937951088640
+    m_Localized: Take the <sprite=2> to the <sprite=3> to form glucose!
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
