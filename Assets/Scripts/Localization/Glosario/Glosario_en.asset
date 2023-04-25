@@ -43,7 +43,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2812079960064
-    m_Localized: Chlorophyll
+    m_Localized: CHLOROPHYLL
     m_Metadata:
       m_Items: []
   - m_Id: 3181073854464
@@ -70,8 +70,60 @@ MonoBehaviour:
       sunlight and water, plants use the CO2 to make glucose, which is like their
       food.
 
-      So CO2 is like a key ingredient in the plants'' food recipe.
-      Without it, plants could not survive or grow.'
+      So CO2 is like a key ingredient in the plants'' food recipe. Without
+      it, plants could not survive or grow.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22453011542016
+    m_Localized: PHOSPHORUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22722847895552
+    m_Localized: "Phosphorus is a chemical element found in the earth, in rocks and
+      in soil. It is important for life on Earth because it helps plants grow and
+      develop.\r\nPlants need phosphorus to produce energy and to grow their roots,
+      leaves and fruits. Animals also need phosphorus to keep bones and teeth strong
+      and healthy.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23331353325568
+    m_Localized: GLUCOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23962650603520
+    m_Localized: 'Glucose is a type of sugar that is very important in photosynthesis,
+      the process plants use to produce their own food.
+
+      During photosynthesis,
+      plants use sunlight to convert carbon dioxide and water into glucose and oxygen.
+      Glucose is like food for plants; it is their nourishment. Plants store glucose
+      in their cells and use it to produce energy for all their activities, such
+      as growth and reproduction.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25017903935488
+    m_Localized: H2O
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25133968715776
+    m_Localized: 'H2O is a very important molecule that is composed of two hydrogen
+      atoms and one oxygen atom. It is known as water and is essential for life on
+      our planet.
+
+      Water is a liquid substance found in rivers, lakes, oceans
+      and also in rain. Water can also be found in other places, such as inside plants
+      and animals.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26881047326720
+    m_Localized: MAGNESIUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27055593287680
+    m_Localized: Magnesium is an important mineral for our body and is found in many
+      foods. It helps keep our bones strong, regulates heart rate and muscle function.
+      It is also essential in photosynthesis, as it is part of chlorophyll, the green
+      pigment that plants use to produce their own food.
     m_Metadata:
       m_Items: []
   references:

@@ -51,6 +51,38 @@ MonoBehaviour:
     m_Key: CO2_Description
     m_Metadata:
       m_Items: []
+  - m_Id: 22453011542016
+    m_Key: Fosforo_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22722847895552
+    m_Key: Fosforo_Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23331353325568
+    m_Key: Glucosa_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23962650603520
+    m_Key: Glucosa_Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25017903935488
+    m_Key: H2O_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25133968715776
+    m_Key: H2O_Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26881047326720
+    m_Key: Magensio_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27055593287680
+    m_Key: Magnesio_Description
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

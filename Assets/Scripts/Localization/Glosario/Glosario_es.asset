@@ -44,7 +44,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2812079960064
-    m_Localized: Clorofila
+    m_Localized: CLOROFILA
     m_Metadata:
       m_Items: []
   - m_Id: 3181073854464
@@ -68,6 +68,58 @@ MonoBehaviour:
       para hacer glucosa, que es como su alimento.\nEntonces, el CO2 es como un ingrediente
       clave en la receta de comida de las plantas. Sin \xE9l, las plantas no podr\xEDan
       sobrevivir ni crecer."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22453011542016
+    m_Localized: "F\xD3SFORO"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22722847895552
+    m_Localized: "El f\xF3sforo es un elemento qu\xEDmico que se encuentra en la
+      tierra, en rocas y en el suelo. Es importante para la vida en la Tierra, porque
+      ayuda a las plantas a crecer y desarrollarse.\r\n\rLas plantas necesitan f\xF3sforo
+      para producir energ\xEDa y hacer crecer sus ra\xEDces, hojas y frutos. Los
+      animales tambi\xE9n necesitan f\xF3sforo para mantener huesos y dientes fuertes
+      y sanos.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23331353325568
+    m_Localized: GLUCOSA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23962650603520
+    m_Localized: "La glucosa es un tipo de az\xFAcar que es muy importante en la
+      fotos\xEDntesis, el proceso que las plantas utilizan para producir su propia
+      comida.\r\n\rDurante la fotos\xEDntesis, las plantas utilizan la luz del sol
+      para convertir el di\xF3xido de carbono y el agua en glucosa y ox\xEDgeno.
+      La glucosa es como la comida de las plantas, es su alimento. Las plantas almacenan
+      la glucosa en sus c\xE9lulas y la utilizan para producir energ\xEDa para todas
+      sus actividades, como el crecimiento y la reproducci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25017903935488
+    m_Localized: H2O
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25133968715776
+    m_Localized: "El H2O es una mol\xE9cula muy importante que est\xE1 compuesta
+      por dos \xE1tomos de hidr\xF3geno y uno de ox\xEDgeno. Es conocida como agua
+      y es esencial para la vida en nuestro planeta.\r\n\rEl agua es una sustancia
+      l\xEDquida que se encuentra en r\xEDos, lagos, oc\xE9anos y tambi\xE9n en la
+      lluvia. Tambi\xE9n podemos encontrar agua en otros lugares, como en el interior
+      de las plantas y animales."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26881047326720
+    m_Localized: MAGNESIO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27055593287680
+    m_Localized: "El magnesio es un mineral importante para nuestro cuerpo y se encuentra
+      en muchos alimentos. Ayuda a mantener nuestros huesos fuertes, regula el ritmo
+      card\xEDaco y la funci\xF3n muscular. Tambi\xE9n es esencial en la fotos\xEDntesis,
+      ya que forma parte de la clorofila, el pigmento verde que las plantas utilizan
+      para producir su propio alimento."
     m_Metadata:
       m_Items: []
   references:
