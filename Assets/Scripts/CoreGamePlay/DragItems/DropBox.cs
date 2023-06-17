@@ -49,13 +49,16 @@ public class DropBox : MonoBehaviour, IDropHandler
 
         foreach (Transform trs in transform)
         {
+     
             trs.gameObject.GetComponent<DragableItem>().afterParent = null;
             Destroy(trs.gameObject);
+
         }
 
         if (beforeItm)
         {
             beforeItm.afterParent = null;
+            Destroy(beforeItm.gameObject);
         }
     }
 
